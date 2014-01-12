@@ -62,23 +62,23 @@ table {
 
 body {
   background: #272b30;
-  font-family: "Spinnaker", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 h1 {
   color: white;
-  font-family: "Spinnaker", sans-serif;
-  font-weight: lighter;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
   text-align: center;
   margin-top: 30px;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
   font-size: 30px;
 }
 
 h2 {
   color: #ff755a;
-  font-family: "Spinnaker", sans-serif;
-  font-weight: lighter;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
   text-align: center;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -87,8 +87,8 @@ h2 {
 
 h3 {
   color: white;
-  font-family: "Spinnaker", sans-serif;
-  font-weight: lighter;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
   text-align: center;
   margin-top: 0px;
   font-size: 15px;
@@ -97,8 +97,8 @@ h3 {
 
 h4 {
   color: #ff755a;
-  font-family: "Spinnaker", sans-serif;
-  font-weight: lighter;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
   text-align: right;
   margin-top: 0px;
   font-size: 10px;
@@ -121,4 +121,15 @@ img {
 .content {
   width: 90%;
   margin: 0 auto;
+}
+
+.description {
+  display: hidden;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+img:hover .description {
+  display: block;
 }

@@ -124,12 +124,9 @@ img {
 }
 
 .description {
-  display: hidden;
+  display: none;
 }
 
-img:hover {
-  opacity: 1.0;
-}
-img:hover .description {
+.items:hover .description {
   display: block;
 }

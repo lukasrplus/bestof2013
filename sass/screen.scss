@@ -1,0 +1,87 @@
+
+@import 'reset';
+
+
+$font: 'Spinnaker', sans-serif;
+$main-color: white;
+$second-color: #ff755a;
+
+
+
+* {
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+body {
+    background: #272b30;
+    font-family: $font;
+}
+
+h1 {
+  color: $main-color;
+  font-family: $font;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+h2 {
+  color: $second-color;
+  font-family: $font;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20 px;
+}
+
+h3 {
+  color: $main-color;
+  font-family: $font;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 0px;
+  font-size: 15px;
+  width: 400px;
+}
+
+h4 {
+  color: $second-color;
+  font-family: $font;
+  font-weight: lighter;
+  text-align: right;
+  margin-top: 0px;
+  font-size: 10px;
+}
+
+ul {
+  text-align: center;
+
+}
+
+section {
+  // width: 100%;
+}
+
+img {
+  opacity:0.7;
+}
+
+.items {
+  // float: left;
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top;
+}
+
+.content {
+   width: 90%;
+   margin: 0 auto;
+}
+
+
+
+
